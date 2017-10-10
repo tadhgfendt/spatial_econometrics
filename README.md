@@ -18,7 +18,7 @@ But suppose, like the superfund site example, we want to include environmental/g
 There are three notebooks that should be run in the following order:
 
 1. `props_to_shape` which simply converts lat lon points to a shapefile
-2. `osm` which calls collects data from the open street maps api about area amenities that might be important
+2. `osm` which collects data from the open street maps api about area amenities that might be important
 > <http://wiki.openstreetmap.org/wiki/Overpass_API>
 
 > <https://taginfo.openstreetmap.org/>
