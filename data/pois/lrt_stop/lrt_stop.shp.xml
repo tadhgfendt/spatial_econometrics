@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Metro Data Resource Center</origin>
+				<pubdate>1990</pubdate>
+				<title>Light rail stations</title>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Light rail (MAX) stations, central city street car stops and commuter rail (WES) stations existing, planned or under construction.</abstract>
+			<purpose>For general mapping purposes.</purpose>
+			<supplinf>Planned light rail and streetcar alignments reflect the regionally adopted Locally Preferred Alternative (LPA).  The LPA identifies the transit mode, route, and station locations and is adopted by Metro Council and local jurisdictions.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20160803</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-123.153528597</westbc>
+				<eastbc>-122.367487422</eastbc>
+				<northbc>45.70263875</northbc>
+				<southbc>45.23396470</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Transit</themekey>
+				<themekey>light rail</themekey>
+				<themekey>transportation</themekey>
+				<themekey>railroad</themekey>
+				<themekey>tracks</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Portland</placekey>
+				<placekey>Multnomah County</placekey>
+				<placekey>Washington County</placekey>
+				<placekey>Clackamas County</placekey>
+				<placekey>Oregon</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>This database and GIS data are made available under the Open Database License (ODbL v1) and Database Content License (DbCL v1). See http://www.oregonmetro.gov/rlis-live.</useconst>
+    <browse>
+        <browsen>http://library.oregonmetro.gov/rlisdiscovery/browse_graphic/lrt_stop.png</browsen>
+        <browsed><![CDATA[Bus lines, bus stops, MAX, MAX stations, and Park & Rides shown on a background of streets and parks.]]></browsed>
+        <browset>PNG</browset>
+    </browse>
+	</idinfo>
+	<dataqual>
+		<logic></logic>
+		<complete></complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Registered to streets. The street linework is contained within the street rights-of-way as shown on the tax lot layer. As the tax lot horizonal accuracy is improved, streets are adjusted accordingly. The tax lots are digitized at +/- 10 feet accuracy. Beaverton, Oregon City and Tigard planning areas are improved to +/- 5 feet accuracy. Multnomah County was created with coordinate geometry using better control.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Added stations for the Red and Yellow Lines</procdesc>
+				<procdate>199908</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Added central city street car stations</procdesc>
+				<procdate>2000505</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Added proposed stations for the I205 MAX line; provided by the City of Portland</procdesc>
+				<procdate>20070402</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Added Westside Commuter rail stations</procdesc>
+				<procdate>20080731</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Added central city street car stations to south waterfront area</procdesc>
+				<procdate>200808</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Data now maintained as a versioned feature class within an SDE geodatabase</procdesc>
+				<procdate>20090211</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Data now received directly from TriMet and imported into SDE</procdesc>
+				<procdate>20100725</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Data now includes LINE field describing the transit rail lines serving a particular station</procdesc>
+				<procdate>20100801</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Data now includes planned transit rail line stations. The eastside Portland Street Car stops and Portland/Milwaukie Light Rail line stations added</procdesc>
+				<procdate>20100801</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Included the Portland Street Car Line name in LINE field</procdesc>
+				<procdate>20141023</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Updated to reflect September 2015 changes with the Orange Max Line coming online and the re-organization of the CL Street Car line to the A Loop and B Loop.</procdesc>
+				<procdate>20150908</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<gridsys>
+					<gridsysn>NAD_1983_HARN_StatePlane_Oregon_North_FIPS_3601</gridsysn>
+					<spcs>
+						<spcszone>5076</spcszone>
+					</spcs>
+				</gridsys>
+				<planci>
+					<plance></plance>
+					<plandu>International foot</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D_North_American_1983_HARN</horizdn>
+				<ellips></ellips>
+				<semiaxis></semiaxis>
+				<denflat></denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Lrt_stop.dbf</enttypl>
+				<enttypd>Description of the light rail stop attributes.</enttypd>
+				<enttypds></enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Station</attrlabl>
+				<attrdef>Station name.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Status</attrlabl>
+				<attrdef>Operational status of segment.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Exisiting</edomv>
+						<edomvd>Service currently provided on rail segment.</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>Planned</edomv>
+						<edomvd>Rail segment in advanced planning stages.</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>Under construction</edomv>
+						<edomvd>Rail segment is under construction.</edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Type</attrlabl>
+				<attrdef>Type of stop</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>MAX</edomv>
+						<edomvd></edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>Street Car</edomv>
+						<edomvd></edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<edom>
+						<edomv>WES</edomv>
+						<edomvd></edomvd>
+						<edomvds></edomvds>
+					</edom>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Line</attrlabl>
+				<attrdef>Line(s) serving a particular segment.</attrdef>
+				<attrdefs></attrdefs>
+				<attrdomv>
+					<udom>NA</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype></addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503 797-1742</cntvoice>
+				<cntfax>503 797-1909</cntfax>
+				<cntemail>drc@oregonmetro.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>The information in this file was derived from digital databases on Metro's GIS. Care was taken in the creation of this file. Metro cannot accept any responsibility for errors, omissions, or positional accuracy. There are no warranties, expressed or implied.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile</formname>
+					<transize>0</transize>
+				</digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>DVD or CD-ROM</offmedia>
+						<recfmt>ISO9660</recfmt>
+					</offoptn>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.oregonmetro.gov/rlisdiscovery</networkr>
+							</networka>
+						</computer>
+						<accinstr>Email drc@oregonmetro.gov or call 503-797-1742 for further instructions.</accinstr>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>No cost</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20160803</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Metro Data Resource Center</cntorg>
+					<cntper>Minott Kerr</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 NE Grand Ave.</address>
+					<city>Portland</city>
+					<state>OR</state>
+					<postal>97232</postal>
+				</cntaddr>
+				<cntvoice>503 797-1679</cntvoice>
+				<cntfax>503 797-1909</cntfax> 
+				<cntemail>minott.kerr@oregonmetro.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+    <Binary>
+        <Thumbnail>
+            <Data EsriPropertyType="PictureX">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</Data>
+        </Thumbnail>
+    </Binary>
+</metadata>
