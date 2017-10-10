@@ -1,0 +1,5 @@
+pandana==0.4.0
+numpy==1.13.1
+Shapely==1.5.17.post1
+geopandas==0.2.1
+pandas==0.20.3
